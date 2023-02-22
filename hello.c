@@ -1,0 +1,150 @@
+#include <stdio.h>
+#include <string.h>
+/*
+  ######################################################
+  # HELLO WORLD!!
+  ######################################################
+*/
+
+/*
+int main() {
+  printf("Hello, world!\n");
+  printf("1\t2\t3\n4\t5\t6\n7\t8\t9");
+  printf("\"I like pizza\" - mateus");
+  return 0;
+};
+*/
+
+/*
+  ######################################################
+  # VARIABLES!!
+  ######################################################
+*/
+
+
+// int main() {
+//   int i; // declaration of variable.
+//   i = 0; // initialization of variable
+//   int j = 1; // both initialization and declaration of variable
+
+//   /*
+//     BASIC DATA TYPES
+//     you need to specify the data type of the variable
+//   */
+
+//   const float PI = 3.14159;
+//   int integer = 0;        // integer
+//   float price = 9.99;     // contains a decimal portion
+//   char vowel = 'A';       // a single character
+//   char name[] = "Mateus"; // array of characters
+
+//   printf("Hello %s, nice to meet you!\n", name);         // %s is the specifier type for string
+//   printf("Your macchiato will be %.2f\n", price);          // %f is the float specifier
+//   printf("Sir, you did ordered %d coffes!\n", integer);  // %d is the integer specifier
+//   printf("The first vowel in your name is %c\n", vowel); // %c is the character specifier
+// };
+
+
+/*
+  ######################################################
+  # ARITHMETIC!!
+  ######################################################
+*/
+
+// int main() {
+//   int x = 5;
+//   int y = 2;
+
+//   // printf("%s", products[0]);
+
+//   // int prices[10] = {};
+
+//   // double z = x / (float)y; // double is a 8byte more precise representation of a float
+
+//   // printf("%.2f", z);
+
+//   return 0;
+// };
+
+/*
+  ######################################################
+  # USER INPUT!!
+  ######################################################
+*/
+
+// int main () {
+//   int age;
+//   char name[25];
+
+//   printf("\nWhat is your name? ");
+//   // scanf("%s", &name);
+//   fgets(name, 25, stdin);
+//   printf("\nHow old are you? ");
+//   scanf("%d", &age);
+
+//   printf("Hello, %s", name);
+//   printf(", you're %d years old", age);
+//   return 0;
+// };
+
+/*
+  ######################################################
+  # AMOUNT OF DAYS ON EACH MONTH!!
+  ######################################################
+*/
+
+// int main() {
+//   int mes;
+
+//   printf("Choose a month:\n");
+//   printf("============================\n");
+//   printf("|   1    |  January        |\n");
+//   printf("|   2    |  February       |\n");
+//   printf("|   3    |  March          |\n");
+//   printf("|   4    |  April          |\n");
+//   printf("|   5    |  May            |\n");
+//   printf("|   6    |  June           |\n");
+//   printf("|   7    |  July           |\n");
+//   printf("|   8    |  August         |\n");
+//   printf("|   9    |  September      |\n");
+//   printf("|   10   |  October        |\n");
+//   printf("|   11   |  November       |\n");
+//   printf("|   12   |  December       |\n");
+//   printf("============================\n");
+//   scanf("%d",&mes);
+
+//   char* array[] = {
+//       "This month have 31 days",
+//       "This month have 28 days",
+//       "This month have 31 days",
+//       "This month have 30 days",
+//       "This month have 31 days",
+//       "This month have 30 days",
+//       "This month have 31 days",
+//       "This month have 30 days",
+//       "This month have 31 days",
+//       "This month have 30 days",
+//       "This month have 31 days",
+//       "This month have 30 days",
+//   };
+
+//   printf("%s", array[mes - 1]);
+// };
+
+/*
+  ######################################################
+  # MATH FUNCTIONS!!
+  ######################################################
+*/
+
+#include <math.h>
+
+int main() {
+  double squareRoot = sqrt(9);
+
+
+
+
+  printf("%d", squareRoot);
+  return 0;
+}
