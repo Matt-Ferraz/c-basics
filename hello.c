@@ -140,11 +140,37 @@ int main() {
 #include <math.h>
 
 int main() {
-  double squareRoot = sqrt(9);
+  int i, j, n, k;
+  i = 9;
+  j = 12;
+  n = 2;
+  k = 4;
 
+  const float PI = 3.1415;
 
+  double squareRoot = sqrt(i); // returns the square root of the first argument
+  double power = pow(k, n);    // first parameter is the base of the power, second is the exponent of the power
+  int rounded = round(PI);     // retruns the rounded result of a floating point
+  int ceiled = ceil(PI);       // rounds up the floating point number to the next integer
+  int ceiled = floor(PI);      // rounds down the floating point number to the previous integer
+  // double absolute 
 
+  // square root print
+  printf("The square root of %d is ", i);
+  printf("%.2lf", squareRoot);
 
-  printf("%d", squareRoot);
+  // power prints
+  printf("\nThe power of %d ", k);
+  printf("to the power of %d is ", n);
+  printf("%.2lf", power);
+
+  // round prints
+  printf("\nThe round of %.4f (π) is ", PI);
+  printf("%d", rounded);
+
+  // ceil prints
+  printf("\nThe \"ceil\" function of %.4f is ", PI);
+  printf("%d", ceiled);
+
   return 0;
-}
+};
