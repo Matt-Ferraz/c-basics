@@ -138,13 +138,15 @@ int main() {
 */
 
 #include <math.h>
+#include <stdlib.h>
 
 int main() {
-  int i, j, n, k;
+  int i, j, n, k, x;
   i = 9;
   j = 12;
   n = 2;
   k = 4;
+  x = 30;
 
   const float PI = 3.1415;
 
@@ -152,8 +154,10 @@ int main() {
   double power = pow(k, n);    // first parameter is the base of the power, second is the exponent of the power
   int rounded = round(PI);     // retruns the rounded result of a floating point
   int ceiled = ceil(PI);       // rounds up the floating point number to the next integer
-  int ceiled = floor(PI);      // rounds down the floating point number to the previous integer
-  // double absolute 
+  int floored = floor(PI);     // rounds down the floating point number to the previous integer
+  double absolute = abs(-k);   // returns the absolute value of the negative (or positive) number, the distance from the 0
+  double logarithm = log(k);   // returns the logarithm of the argument
+  
 
   // square root print
   printf("The square root of %d is ", i);
@@ -165,12 +169,24 @@ int main() {
   printf("%.2lf", power);
 
   // round prints
-  printf("\nThe round of %.4f (π) is ", PI);
+  printf("\nThe \"round\" of %.4f (π) is ", PI);
   printf("%d", rounded);
 
   // ceil prints
   printf("\nThe \"ceil\" function of %.4f is ", PI);
   printf("%d", ceiled);
+
+  // floor prints
+  printf("\nThe \"floor\" function of %.4f is ", PI);
+  printf("%d", floored);
+
+  // fabs prints
+  printf("\nThe \"fabs\" function of -%d is ", k);
+  printf("%.2lf", absolute);
+
+  // log prints
+  printf("\nThe \"log\" function of -%d is ", k);
+  printf("%.2lf", logarithm);
 
   return 0;
 };
