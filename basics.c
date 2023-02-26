@@ -197,23 +197,58 @@ int main() {
   ######################################################
 */
 
-int main(){
-  char name[20];
-  int age;
+// int main(){
+//   char name[20];
+//   int age;
 
-  printf("Hello, what is your name? ");
-  scanf("%s", name);
+//   printf("Hello, what is your name? ");
+//   scanf("%s", name);
 
-  printf("\nWhat is your age? ");
-  scanf("%d", &age);
+//   printf("\nWhat is your age? ");
+//   scanf("%d", &age);
 
-  if(age >= 18) {
-    printf("\nGreat %s, you can drink a beer with me", name);
-  } else if (age < 18 && age >= 0) {
-    printf("\nOops %s, you cant drink a beer with", name);
-  } else {
-    printf("%s, you didnt even have born yet", name);
-  };
+//   if(age >= 18) {
+//     printf("\nGreat %s, you can drink a beer with me", name);
+//   } else if (age < 18 && age >= 0) {
+//     printf("\nOops %s, you cant drink a beer with", name);
+//   } else {
+//     printf("%s, you didnt even have born yet", name);
+//   };
+
+//   return 0;
+// };
+
+/*
+  ######################################################
+  # SWITCH STATEMENT!!
+  ######################################################
+*/
+
+int main() {
+  char grade;
+
+  printf("Hey, can you tell me your grade? ");
+  scanf("%c", &grade);
+
+  switch(grade) {
+    case 'A':
+      printf("Okay, perfect");
+      break;
+    case 'B':
+      printf("Pretty good");
+      break;
+    case 'C':
+      printf("Well, thats not that bad");
+      break;
+    case 'D':
+      printf("At least its not an F");
+      break;
+    case 'F':
+      printf("YOU FAILED THE TEST");
+      break;
+    default:
+      printf("Enter a valid grade");
+  }; 
 
   return 0;
-};
+}
