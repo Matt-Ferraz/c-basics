@@ -190,3 +190,30 @@ int main() {
 
 //   return 0;
 // };
+
+/*
+  ######################################################
+  # IF ELSE STATEMENTS!!
+  ######################################################
+*/
+
+int main(){
+  char name[20];
+  int age;
+
+  printf("Hello, what is your name? ");
+  scanf("%s", name);
+
+  printf("\nWhat is your age? ");
+  scanf("%d", &age);
+
+  if(age >= 18) {
+    printf("\nGreat %s, you can drink a beer with me", name);
+  } else if (age < 18 && age >= 0) {
+    printf("\nOops %s, you cant drink a beer with", name);
+  } else {
+    printf("%s, you didnt even have born yet", name);
+  };
+
+  return 0;
+};
