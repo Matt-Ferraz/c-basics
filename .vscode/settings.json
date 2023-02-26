@@ -1,5 +1,7 @@
 {
   "files.associations": {
-    "stdlib.h": "c"
+    "*.css": "\"tailwindcss\"",
+    "stdlib.h": "c",
+    "ratio": "c"
   },
 }
