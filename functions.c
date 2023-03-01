@@ -25,17 +25,37 @@
 // };
 
 // ################################################################
-// #### RETURNS STATEMENTES
+// #### RETURNS STATEMENTS
 // ################################################################
 
-double square(double x) 
-{
-  return x * x;
-};
+// double square(double x) 
+// {
+//   return x * x;
+// };
+
+// int main()
+// {
+//   double x = square(3.14);
+//   printf("%lf", x);
+//   return 0;
+// };
+
+// ################################################################
+// #### FUNCTIONS PROTOTYPE
+// ################################################################
+
+void hello(char[], int);
 
 int main()
 {
-  double x = square(3.14);
-  printf("%lf", x);
+  char name[] = "Mateus";
+  int age = 17;
+  hello(name, age);
   return 0;
+};
+
+void hello(char name[], int age)
+{
+  printf("Hello %s\n", name);
+  printf("You are now %d years old", age);
 };
