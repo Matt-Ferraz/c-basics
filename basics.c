@@ -6,14 +6,14 @@
   ######################################################
 */
 
-/*
-int main() {
-  printf("Hello, world!\n");
-  printf("1\t2\t3\n4\t5\t6\n7\t8\t9");
-  printf("\"I like pizza\" - mateus");
-  return 0;
-};
-*/
+
+// int main() {
+//   printf("Hello, world!\n");
+//   printf("1\t2\t3\n4\t5\t6\n7\t8\t9");
+//   printf("\"I like pizza\" - mateus");
+//   return 0;
+// };
+
 
 /*
   ######################################################
@@ -93,43 +93,43 @@ int main() {
   ######################################################
 */
 
-// int main() {
-//   int mes;
+int main() {
+  int mes;
 
-//   printf("Choose a month:\n");
-//   printf("============================\n");
-//   printf("|   1    |  January        |\n");
-//   printf("|   2    |  February       |\n");
-//   printf("|   3    |  March          |\n");
-//   printf("|   4    |  April          |\n");
-//   printf("|   5    |  May            |\n");
-//   printf("|   6    |  June           |\n");
-//   printf("|   7    |  July           |\n");
-//   printf("|   8    |  August         |\n");
-//   printf("|   9    |  September      |\n");
-//   printf("|   10   |  October        |\n");
-//   printf("|   11   |  November       |\n");
-//   printf("|   12   |  December       |\n");
-//   printf("============================\n");
-//   scanf("%d",&mes);
+  printf("Choose a month:\n");
+  printf("============================\n");
+  printf("|   1    |  January        |\n");
+  printf("|   2    |  February       |\n");
+  printf("|   3    |  March          |\n");
+  printf("|   4    |  April          |\n");
+  printf("|   5    |  May            |\n");
+  printf("|   6    |  June           |\n");
+  printf("|   7    |  July           |\n");
+  printf("|   8    |  August         |\n");
+  printf("|   9    |  September      |\n");
+  printf("|   10   |  October        |\n");
+  printf("|   11   |  November       |\n");
+  printf("|   12   |  December       |\n");
+  printf("============================\n");
+  scanf("%d",&mes);
 
-//   char* array[] = {
-//       "This month have 31 days",
-//       "This month have 28 days",
-//       "This month have 31 days",
-//       "This month have 30 days",
-//       "This month have 31 days",
-//       "This month have 30 days",
-//       "This month have 31 days",
-//       "This month have 30 days",
-//       "This month have 31 days",
-//       "This month have 30 days",
-//       "This month have 31 days",
-//       "This month have 30 days",
-//   };
+  char* array[] = {
+      "This month have 31 days",
+      "This month have 28 days",
+      "This month have 31 days",
+      "This month have 30 days",
+      "This month have 31 days",
+      "This month have 30 days",
+      "This month have 31 days",
+      "This month have 31 days",
+      "This month have 30 days",
+      "This month have 31 days",
+      "This month have 30 days",
+      "This month have 31 days",
+  };
 
-//   printf("%s", array[mes - 1]);
-// };
+  printf("%s", array[mes - 1]);
+};
 
 /*
   ######################################################
@@ -224,31 +224,31 @@ int main() {
   ######################################################
 */
 
-int main() {
-  char grade;
+// int main() {
+//   char grade;
 
-  printf("Hey, can you tell me your grade? ");
-  scanf("%c", &grade);
+//   printf("Hey, can you tell me your grade? ");
+//   scanf("%c", &grade);
 
-  switch(grade) {
-    case 'A':
-      printf("Okay, perfect");
-      break;
-    case 'B':
-      printf("Pretty good");
-      break;
-    case 'C':
-      printf("Well, thats not that bad");
-      break;
-    case 'D':
-      printf("At least its not an F");
-      break;
-    case 'F':
-      printf("YOU FAILED THE TEST");
-      break;
-    default:
-      printf("Enter a valid grade");
-  }; 
+//   switch(grade) {
+//     case 'A':
+//       printf("Okay, perfect");
+//       break;
+//     case 'B':
+//       printf("Pretty good");
+//       break;
+//     case 'C':
+//       printf("Well, thats not that bad");
+//       break;
+//     case 'D':
+//       printf("At least its not an F");
+//       break;
+//     case 'F':
+//       printf("YOU FAILED THE TEST");
+//       break;
+//     default:
+//       printf("Enter a valid grade");
+//   }; 
 
-  return 0;
-}
+//   return 0;
+// };

@@ -1,21 +1,41 @@
 #include <stdio.h>
 
-void consoleOut() 
+// ################################################################
+// #### ARGUMENTS
+// ################################################################
+
+// void consoleOut() 
+// {
+//   printf("This is an console/print\n");
+// };
+
+// void printArguments(char name[], int age){
+//   printf("Hello %s, you're %d years old", name, age);
+// };
+
+// int main() 
+// {
+//   char name[] = "Mateus";
+//   int age = 17;
+
+//   consoleOut();
+//   printArguments(name, age);
+
+//   return 0;
+// };
+
+// ################################################################
+// #### RETURNS STATEMENTES
+// ################################################################
+
+double square(double x) 
 {
-  printf("This is an console/print\n");
+  return x * x;
 };
 
-void printArguments(char name[], int age){
-  printf("Hello %s, you're %d years old", name, age);
-};
-
-int main() 
+int main()
 {
-  char name[] = "Mateus";
-  int age = 17;
-
-  consoleOut();
-  printArguments(name, age);
-
+  double x = square(3.14);
+  printf("%lf", x);
   return 0;
 };
