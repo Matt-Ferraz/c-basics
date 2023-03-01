@@ -93,43 +93,43 @@
   ######################################################
 */
 
-int main() {
-  int mes;
+// int main() {
+//   int mes;
 
-  printf("Choose a month:\n");
-  printf("============================\n");
-  printf("|   1    |  January        |\n");
-  printf("|   2    |  February       |\n");
-  printf("|   3    |  March          |\n");
-  printf("|   4    |  April          |\n");
-  printf("|   5    |  May            |\n");
-  printf("|   6    |  June           |\n");
-  printf("|   7    |  July           |\n");
-  printf("|   8    |  August         |\n");
-  printf("|   9    |  September      |\n");
-  printf("|   10   |  October        |\n");
-  printf("|   11   |  November       |\n");
-  printf("|   12   |  December       |\n");
-  printf("============================\n");
-  scanf("%d",&mes);
+//   printf("Choose a month:\n");
+//   printf("============================\n");
+//   printf("|   1    |  January        |\n");
+//   printf("|   2    |  February       |\n");
+//   printf("|   3    |  March          |\n");
+//   printf("|   4    |  April          |\n");
+//   printf("|   5    |  May            |\n");
+//   printf("|   6    |  June           |\n");
+//   printf("|   7    |  July           |\n");
+//   printf("|   8    |  August         |\n");
+//   printf("|   9    |  September      |\n");
+//   printf("|   10   |  October        |\n");
+//   printf("|   11   |  November       |\n");
+//   printf("|   12   |  December       |\n");
+//   printf("============================\n");
+//   scanf("%d",&mes);
 
-  char* array[] = {
-      "This month have 31 days",
-      "This month have 28 days",
-      "This month have 31 days",
-      "This month have 30 days",
-      "This month have 31 days",
-      "This month have 30 days",
-      "This month have 31 days",
-      "This month have 31 days",
-      "This month have 30 days",
-      "This month have 31 days",
-      "This month have 30 days",
-      "This month have 31 days",
-  };
+//   char* array[] = {
+//       "This month have 31 days",
+//       "This month have 28 days",
+//       "This month have 31 days",
+//       "This month have 30 days",
+//       "This month have 31 days",
+//       "This month have 30 days",
+//       "This month have 31 days",
+//       "This month have 31 days",
+//       "This month have 30 days",
+//       "This month have 31 days",
+//       "This month have 30 days",
+//       "This month have 31 days",
+//   };
 
-  printf("%s", array[mes - 1]);
-};
+//   printf("%s", array[mes - 1]);
+// };
 
 /*
   ######################################################
@@ -252,3 +252,24 @@ int main() {
 
 //   return 0;
 // };
+
+/*
+  ######################################################
+  # TERNARY OPERATOR!!
+  ######################################################
+*/
+
+int findMax(int x, int y)
+{
+  return x > y ? x : y;
+};
+
+int main() 
+{
+  // ternary operator = shortcut to if/else when assigning/returning a value
+  // (condition) ? value if its true : value if its false
+
+  int max = findMax(5,3);
+  printf("%d", max);
+  return 0;
+};
