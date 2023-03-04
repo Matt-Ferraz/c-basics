@@ -259,17 +259,33 @@
   ######################################################
 */
 
-int findMax(int x, int y)
-{
-  return x > y ? x : y;
-};
+// int findMax(int x, int y)
+// {
+//   return x > y ? x : y;
+// };
+
+// int main() 
+// {
+//   // ternary operator = shortcut to if/else when assigning/returning a value
+//   // (condition) ? value if its true : value if its false
+
+//   int max = findMax(5,3);
+//   printf("%d", max);
+//   return 0;
+// };
+
+/*
+  ######################################################
+  # FOR LOOPS!!
+  ######################################################
+*/
 
 int main() 
-{
-  // ternary operator = shortcut to if/else when assigning/returning a value
-  // (condition) ? value if its true : value if its false
+{ 
+  // for loop = repeats a section of code i times
 
-  int max = findMax(5,3);
-  printf("%d", max);
+  for (int i = 0; i < 10000000; i++) {
+    printf("%d\n", i);
+  };
   return 0;
 };
