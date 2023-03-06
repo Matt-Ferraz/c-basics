@@ -29,3 +29,21 @@ I love using GNU compiler, and to install it you will need to:
  ```bash
  $ brew install gcc
  ```
+### After the compiler's installation, you are ready to run the scripts.
+ ```bash
+ $ gcc <filename>.c -o <output>
+ ```
+### Run the compiled file (output)
+ ```bash
+ $ ./<output>
+ ```
+ 
+### EXAMPLE!!
+ **_COMPILING_**
+ ```bash
+ $ gcc basics.c -o basic
+ ```
+ **_EXECUTING_**
+ ```bash
+ $ ./basic
+ ```
