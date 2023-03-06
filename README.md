@@ -1,6 +1,6 @@
 # Welcome to my <img align="center" alt="c" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"> playground 🛝
 
-## Installation
+## Downloading the repository
 To install the repository, first you need to clone it to your machine.
 ```bash
 $ git clone https://github.com/Matt-Ferraz/c-basics.git 
@@ -47,3 +47,4 @@ I love using GNU compiler, and to install it you will need to:
  ```bash
  $ ./basic
  ```
+ ## Windows <img align="center" alt="c" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg">
