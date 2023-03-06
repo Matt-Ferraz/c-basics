@@ -47,4 +47,7 @@ I love using GNU compiler, and to install it you will need to:
  ```bash
  $ ./basic
  ```
- ## Windows <img align="center" alt="c" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg">
+
+## Windows <img align="center" alt="c" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg"> 
+ ### GCC's installation
+  - Download [`MinGW`](https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download) from sorrce forge
