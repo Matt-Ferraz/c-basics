@@ -57,4 +57,20 @@ I love using GNU compiler, and to install it you will need to:
   - On the right side, tick **_"mingw32-gcc-g++-bin"_**. If you are presented with a prompt, click on install.
   - On the top left corner, go to Installation > Apply Changes. And wait until it finishes the download of a billion files and installs them.
  ### Add to PATH
- 
+  - Go to **_Windows Explorer > Right click on This PC > Properties > Advanced system settings > Environment Variables_** or search for "Environment Variables" in the Search Bar...
+  - On the bottom corner, choose **_"System Variables"_**, look for a Variable called "Path" and click on it. Some systems show an interface for adding a new **Path** easily, else you just need to add **_";"_** at the end and add the following path. 
+  ```bash
+  C:\MinGW\bin
+  ```
+  - Choose OK, and OK. Open the Command Prompt on your machine and try typing 
+  ```sh
+  gcc --version
+  ``` 
+ ### The terminal response must be something like that:
+   ```sh
+   gcc (MinGW.org GCC Build-2) 9.2.0
+   Copyright (C) 2019 Free Software Foundation, Inc.
+   This is free software; see the source for copying conditions. 
+   There is NO warranty; not even for MERCHANTABILITY or FITNESS
+   FOR A PARTICULAR PURPOSE.
+   ```
