@@ -51,3 +51,10 @@ I love using GNU compiler, and to install it you will need to:
 ## Windows <img align="center" alt="c" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg"> 
  ### GCC's installation
   - Download [`MinGW`](https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download) from sorrce forge
+  - Look for **_mingw-get-setup.exe_** for downloading. Download it and launch the installer. Accept the terms and move on.
+  - You'll now see that the installer is connecting to the Internet and downloading a plenty of tiny and small files.
+  - After the installation, you'll be on a window titled MinGW Installation Manager. You should be in the 'Basic Setup' tab by default. If not, click on Basic Setup.
+  - On the right side, tick **_"mingw32-gcc-g++-bin"_**. If you are presented with a prompt, click on install.
+  - On the top left corner, go to Installation > Apply Changes. And wait until it finishes the download of a billion files and installs them.
+ ### Add to PATH
+ 
